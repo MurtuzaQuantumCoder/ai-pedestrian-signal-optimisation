@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10000010000000000000001 /* KlikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000001 /* KlikApp.swift */; };
-		A10000010000000000000002 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000002 /* CameraView.swift */; };
-		A10000010000000000000003 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000003 /* CameraService.swift */; };
-		A10000010000000000000004 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000004 /* CameraPreviewView.swift */; };
-		A10000010000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000005 /* Assets.xcassets */; };
+		B10000010000000000000001 /* KlikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000001 /* KlikApp.swift */; };
+		B10000010000000000000002 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000002 /* ServiceType.swift */; };
+		B10000010000000000000003 /* UserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000003 /* UserAction.swift */; };
+		B10000010000000000000004 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000004 /* LocationService.swift */; };
+		B10000010000000000000005 /* CameraSessionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000005 /* CameraSessionProvider.swift */; };
+		B10000010000000000000006 /* CameraRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000006 /* CameraRecognitionService.swift */; };
+		B10000010000000000000007 /* ActionHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000007 /* ActionHistoryStore.swift */; };
+		B10000010000000000000008 /* PatternLearningAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000008 /* PatternLearningAgent.swift */; };
+		B10000010000000000000009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000009 /* HomeView.swift */; };
+		B10000010000000000000010 /* CameraScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000010 /* CameraScanView.swift */; };
+		B10000010000000000000011 /* ServiceActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000011 /* ServiceActionView.swift */; };
+		B10000010000000000000012 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000012 /* HistoryView.swift */; };
+		B10000010000000000000013 /* ConfidenceBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000013 /* ConfidenceBadge.swift */; };
+		B10000010000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000020000000000000014 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10000020000000000000001 /* KlikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlikApp.swift; sourceTree = "<group>"; };
-		A10000020000000000000002 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		A10000020000000000000003 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
-		A10000020000000000000004 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
-		A10000020000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A10000020000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A10000030000000000000001 /* Klik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000020000000000000001 /* KlikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlikApp.swift; sourceTree = "<group>"; };
+		B10000020000000000000002 /* ServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
+		B10000020000000000000003 /* UserAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAction.swift; sourceTree = "<group>"; };
+		B10000020000000000000004 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		B10000020000000000000005 /* CameraSessionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSessionProvider.swift; sourceTree = "<group>"; };
+		B10000020000000000000006 /* CameraRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRecognitionService.swift; sourceTree = "<group>"; };
+		B10000020000000000000007 /* ActionHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionHistoryStore.swift; sourceTree = "<group>"; };
+		B10000020000000000000008 /* PatternLearningAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternLearningAgent.swift; sourceTree = "<group>"; };
+		B10000020000000000000009 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B10000020000000000000010 /* CameraScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanView.swift; sourceTree = "<group>"; };
+		B10000020000000000000011 /* ServiceActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceActionView.swift; sourceTree = "<group>"; };
+		B10000020000000000000012 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B10000020000000000000013 /* ConfidenceBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidenceBadge.swift; sourceTree = "<group>"; };
+		B10000020000000000000014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000020000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000030000000000000001 /* Klik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A10000040000000000000001 /* Frameworks */ = {
+		B10000040000000000000001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +53,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A10000050000000000000001 = {
+		B10000050000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				A10000050000000000000002 /* Klik */,
-				A10000050000000000000003 /* Products */,
+				B10000050000000000000002 /* Klik */,
+				B10000050000000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A10000050000000000000002 /* Klik */ = {
+		B10000050000000000000002 /* Klik */ = {
 			isa = PBXGroup;
 			children = (
-				A10000020000000000000001 /* KlikApp.swift */,
-				A10000020000000000000002 /* CameraView.swift */,
-				A10000020000000000000003 /* CameraService.swift */,
-				A10000020000000000000004 /* CameraPreviewView.swift */,
-				A10000020000000000000005 /* Assets.xcassets */,
-				A10000020000000000000006 /* Info.plist */,
+				B10000020000000000000001 /* KlikApp.swift */,
+				B10000050000000000000004 /* Models */,
+				B10000050000000000000005 /* Services */,
+				B10000050000000000000006 /* Views */,
+				B10000050000000000000007 /* Components */,
+				B10000020000000000000014 /* Assets.xcassets */,
+				B10000020000000000000015 /* Info.plist */,
 			);
 			path = Klik;
 			sourceTree = "<group>";
 		};
-		A10000050000000000000003 /* Products */ = {
+		B10000050000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10000030000000000000001 /* Klik.app */,
+				B10000030000000000000001 /* Klik.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B10000050000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000020000000000000002 /* ServiceType.swift */,
+				B10000020000000000000003 /* UserAction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B10000050000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10000020000000000000004 /* LocationService.swift */,
+				B10000020000000000000005 /* CameraSessionProvider.swift */,
+				B10000020000000000000006 /* CameraRecognitionService.swift */,
+				B10000020000000000000007 /* ActionHistoryStore.swift */,
+				B10000020000000000000008 /* PatternLearningAgent.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B10000050000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10000020000000000000009 /* HomeView.swift */,
+				B10000020000000000000010 /* CameraScanView.swift */,
+				B10000020000000000000011 /* ServiceActionView.swift */,
+				B10000020000000000000012 /* HistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B10000050000000000000007 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B10000020000000000000013 /* ConfidenceBadge.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A10000060000000000000001 /* Klik */ = {
+		B10000060000000000000001 /* Klik */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A10000090000000000000001 /* Build configuration list for PBXNativeTarget "Klik" */;
+			buildConfigurationList = B10000090000000000000001 /* Build configuration list for PBXNativeTarget "Klik" */;
 			buildPhases = (
-				A10000070000000000000001 /* Sources */,
-				A10000040000000000000001 /* Frameworks */,
-				A10000080000000000000001 /* Resources */,
+				B10000070000000000000001 /* Sources */,
+				B10000040000000000000001 /* Frameworks */,
+				B10000080000000000000001 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +140,25 @@
 			);
 			name = Klik;
 			productName = Klik;
-			productReference = A10000030000000000000001 /* Klik.app */;
+			productReference = B10000030000000000000001 /* Klik.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A100000A0000000000000001 /* Project object */ = {
+		B100000A0000000000000001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A10000060000000000000001 = {
+					B10000060000000000000001 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = A10000090000000000000002 /* Build configuration list for PBXProject "Klik" */;
+			buildConfigurationList = B10000090000000000000002 /* Build configuration list for PBXProject "Klik" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,98 +166,66 @@
 				en,
 				Base,
 			);
-			mainGroup = A10000050000000000000001;
-			productRefGroup = A10000050000000000000003 /* Products */;
+			mainGroup = B10000050000000000000001;
+			productRefGroup = B10000050000000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10000060000000000000001 /* Klik */,
+				B10000060000000000000001 /* Klik */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A10000080000000000000001 /* Resources */ = {
+		B10000080000000000000001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000010000000000000005 /* Assets.xcassets in Resources */,
+				B10000010000000000000014 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A10000070000000000000001 /* Sources */ = {
+		B10000070000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000010000000000000001 /* KlikApp.swift in Sources */,
-				A10000010000000000000002 /* CameraView.swift in Sources */,
-				A10000010000000000000003 /* CameraService.swift in Sources */,
-				A10000010000000000000004 /* CameraPreviewView.swift in Sources */,
+				B10000010000000000000001 /* KlikApp.swift in Sources */,
+				B10000010000000000000002 /* ServiceType.swift in Sources */,
+				B10000010000000000000003 /* UserAction.swift in Sources */,
+				B10000010000000000000004 /* LocationService.swift in Sources */,
+				B10000010000000000000005 /* CameraSessionProvider.swift in Sources */,
+				B10000010000000000000006 /* CameraRecognitionService.swift in Sources */,
+				B10000010000000000000007 /* ActionHistoryStore.swift in Sources */,
+				B10000010000000000000008 /* PatternLearningAgent.swift in Sources */,
+				B10000010000000000000009 /* HomeView.swift in Sources */,
+				B10000010000000000000010 /* CameraScanView.swift in Sources */,
+				B10000010000000000000011 /* ServiceActionView.swift in Sources */,
+				B10000010000000000000012 /* HistoryView.swift in Sources */,
+				B10000010000000000000013 /* ConfidenceBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A100000B0000000000000001 /* Debug */ = {
+		B100000B0000000000000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -206,63 +233,26 @@
 			};
 			name = Debug;
 		};
-		A100000B0000000000000002 /* Release */ = {
+		B100000B0000000000000002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A100000B0000000000000003 /* Debug */ = {
+		B100000B0000000000000003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -273,8 +263,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Klik/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -283,14 +271,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.klik.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A100000B0000000000000004 /* Release */ = {
+		B100000B0000000000000004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,8 +288,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Klik/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +296,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.klik.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A10000090000000000000001 /* Build configuration list for PBXNativeTarget "Klik" */ = {
+		B10000090000000000000001 /* Build configuration list for PBXNativeTarget "Klik" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A100000B0000000000000003 /* Debug */,
-				A100000B0000000000000004 /* Release */,
+				B100000B0000000000000003 /* Debug */,
+				B100000B0000000000000004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A10000090000000000000002 /* Build configuration list for PBXProject "Klik" */ = {
+		B10000090000000000000002 /* Build configuration list for PBXProject "Klik" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A100000B0000000000000001 /* Debug */,
-				A100000B0000000000000002 /* Release */,
+				B100000B0000000000000001 /* Debug */,
+				B100000B0000000000000002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A100000A0000000000000001 /* Project object */;
+	rootObject = B100000A0000000000000001 /* Project object */;
 }
