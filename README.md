@@ -1,6 +1,8 @@
 # Klik
 
-**Universal remote for real-world services.** Point your phone at a parking meter, hotel door, laundromat machine, or restaurant table — Klik recognizes it and shows the right action. A built-in Cursor AI agent learns your patterns and predicts what you'll need next.
+**The universal remote for real life.** Point your phone at anything — the right action appears. One tap, done.
+
+Klik uses camera recognition, geolocation, and AI to detect nearby services (parking meters, hotel doors, laundromat machines, restaurant tables) and surface relevant actions in one unified interface. A built-in Cursor AI agent learns your patterns and predicts what you'll need next.
 
 ## Requirements
 
